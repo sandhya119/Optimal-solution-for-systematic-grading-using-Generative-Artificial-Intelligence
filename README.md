@@ -1,15 +1,15 @@
-# 🎓 Application to Provide an Optimal Solution for Systematic Grading in Autonomous Engineering Institute using GenAI
+# Application to Provide an Optimal Solution for Systematic Grading in Autonomous Engineering Institute using GenAI
 
-## 🧠 Overview
+## Overview
 This project introduces an AI-powered application that automates and optimizes **student grading** in autonomous engineering institutes using **Generative Artificial Intelligence (GenAI)**.  
 By integrating **Large Language Models (LLMs)** such as GPT and LSTM-based neural architectures, the system evaluates **text-based answers**, assigns **grades**, and generates **personalized feedback** — ensuring fairness, accuracy, and scalability across departments.
 
-## 🎯 Objectives
+## Objectives
 1. **Identify existing inefficiencies** in manual grading systems.
 2. **Develop an AI algorithm** to ensure unbiased, consistent, and efficient grading.
 3. **Implement a user-friendly web application** that automates grading, feedback, and reporting using GenAI.
 
-## 🔍 Problem Statement
+## Problem Statement
 Manual grading in educational institutions is:
 - Time-consuming and error-prone.  
 - Subjective, leading to inconsistency in marks.  
@@ -18,9 +18,9 @@ Manual grading in educational institutions is:
 
 The proposed system uses **Generative AI** to automate the process, providing **objective evaluations**, **instant feedback**, and **scalable assessment solutions**.
 
-## ⚙️ System Architecture
+## System Architecture
 
-### 🧩 Components
+### Components
 1. **Data Collection:** Student responses and scores are uploaded via Excel or CSV files.
 2. **Data Preprocessing:** Cleansing, formatting, and converting raw data into machine-readable format.
 3. **Model Training:**
@@ -32,7 +32,7 @@ The proposed system uses **Generative AI** to automate the process, providing **
 7. **Visualization Layer:** Charts and analytics via Matplotlib/Seaborn display performance summaries.
 
 
-## 🏗️ Architecture Diagram (Conceptual)
+## Architecture Diagram (Conceptual)
 
 
       ┌────────────────────────────┐
@@ -57,7 +57,7 @@ The proposed system uses **Generative AI** to automate the process, providing **
       │     Database & Reports   │
       └──────────────────────────┘
 
-## 💡 Theoretical Concepts
+## Theoretical Concepts
 
 ### 1. **Generative AI (GenAI)**
 Generative AI enables the model to **create content** such as feedback and explanations.  
@@ -79,22 +79,22 @@ Used for:
 - **LSTM (Long Short-Term Memory)** models analyze answer patterns to score text automatically.
 - **GPT models** convert scores into constructive, readable feedback.
 
-## 🧮 Algorithms Used
+## Algorithms Used
 
-### 🔹 Data Preprocessing
+### Data Preprocessing
 - Cleaning and normalization.
 - Tokenization and stopword removal using `nltk` and `spaCy`.
 - Conversion of Excel → CSV for ML model input.
 
-### 🔹 Grading Algorithm
+### Grading Algorithm
 - Compares student response vectors with reference answer embeddings.
 - Calculates similarity scores and assigns grades within predefined thresholds.
 
-### 🔹 Feedback Generation
+### Feedback Generation
 - GPT API generates personalized comments like:
   > “Your explanation of polymorphism is correct but lacks an example. Try relating it to real-world OOP scenarios.”
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Layer | Technologies Used |
 |-------|--------------------|
@@ -106,7 +106,7 @@ Used for:
 | **IDE/Environment** | Google Colab, VS Code |
 | **OS** | Windows |
 
-## 🧑‍💻 Implementation Details
+## Implementation Details
 - **Admin Role:**  
   - Upload student data.  
   - Train and manage grading models.  
@@ -117,7 +117,7 @@ Used for:
   - Receive automated, personalized feedback.  
   - Track progress and analyze performance trends.
 
-## 🧪 Testing and Evaluation
+## Testing and Evaluation
 ### Testing Types:
 - **Unit Testing:** Checked module-level functions (data cleaning, scoring).
 - **Integration Testing:** Verified communication between Flask backend and database.
@@ -128,7 +128,7 @@ Used for:
 - Targeted **95% similarity** with expert manual grading.
 - AI grading produced results with minimal variance and higher feedback consistency.
 
-## 📊 Performance Metrics
+## Performance Metrics
 | Parameter | Target Value | Achieved |
 |------------|---------------|-----------|
 | Grading Accuracy | ≥95% | 94.6% |
@@ -136,12 +136,12 @@ Used for:
 | Uptime | 99.9% | Stable |
 | Feedback Relevance | 4.7/5 | Verified via survey |
 
-## 🔐 Security & Privacy
+## Security & Privacy
 - **Authentication:** Role-based login using Flask sessions.
 - **Data Encryption:** Student records stored securely.
 - **Compliance:** Adheres to academic data privacy principles (GDPR-equivalent).
 
-## 📈 Future Enhancements
+## Future Enhancements
 - Integration with **Learning Management Systems (LMS)** like Moodle.
 - **Voice-based feedback** delivery for accessibility.
 - Support for **programming-based evaluations**.
